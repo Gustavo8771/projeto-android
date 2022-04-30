@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: android;
+    src: url('fontes/idroid.otf') format('truetype');
+}
+
+* {
+    margin: 0px
+}
+
+body {
+    background-color: rgb(255, 214, 214);
+}
+
+p {
+    font-size: 20px;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.1em;
+}
+
+main > a:link {
+    text-decoration: none;
+    background-color: #2A9B5D;
+}
+
+main > a:hover {
+    background-color: #5fffa7;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #2A9B5D, #063D1E);
+    margin: auto;
+    font-family: 'Bebas Neue', cursive;
+}
+
+article > h1{
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+h1#titulo {
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+p#subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 70px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.botao {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 20px;
+    color: #83E1AD;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+    border-radius: 6px;
+} 
+
+.botao:hover {
+    background-color: #2FA866;
+}
+
+.principal {
+    background-color: white;
+    padding-bottom: 9px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 130px;
+    margin-left: 130px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.541);
+    min-width: 338px;
+}
+
+h1#titulotexto {
+    margin-bottom: 10px;
+    font-family: android;
+    font-size: 30px;
+    color: #063D33;
+}
+
+p#paragrafo {
+    font-size: 20px;
+}
+
+h2#subtitulotexto {
+    font-family: android;
+    color: #1A5C37;
+}
+
+img {
+    width: 100%;
+}
+
+.destaque {
+    background-image: linear-gradient(to right, rgb(107, 187, 107), white);
+}
+
+.destaqueverde {
+    color: rgb(73, 139, 73);
+}
+
+img#bonequinho {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+div.video {
+    background-color: #063D1E;
+    margin-right: 130px;
+    margin-left: 130px;
+    padding-left: 165px;
+    padding-top: 20px;
+    padding-bottom: 51%;
+    min-width: 255px;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 77%;
+}
+
+aside {
+    padding: 10px;
+    background-color: #83E1AD;
+    border-radius: 10px;
+}
+
+div#titulofinal {
+    background-color: #063D1E;
+    color: white;
+}
+
+aside {
+    background-color: #83E1AD;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+aside > ul {
+    list-style-type: "\2714\00A0\00A0";
+    columns: 2;
+}
+
+aside  h3 {
+    background-color: #1A5C37;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer{
+    background-color: #063D1E;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.principal1 {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 9px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    margin-right: 130px;
+    margin-left: 130px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.541);
+    min-width: 300px;
+}
+
+.externo {
+    background-color: #2FA866;
+    color: black;
+    text-decoration: none;
+}
+
+.externo:hover {
+    text-decoration: underline;
+}
+
+.externo:after {
+    content: "\1F517";
+}
